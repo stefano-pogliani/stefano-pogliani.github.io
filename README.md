@@ -1,19 +1,18 @@
 # Personal Site
+
 This is the source code for (the latest version of) my personal website.
 
-
 ## Building
-The theme requires some NPM modules to build correctly:
+
+The theme is assembled by Hugo on build now:
 
 ```bash
-$ cd themes/hello-friend-ng-adapted
-$ npm ci
-$ cd ../../
-$ hugo
+git worktree add --track -b published public/ origin/published
+hugo
 ```
 
-
 ## Publishing
+
 The site is published to GitHub Pages as a user site.
 The `published` branch will store the rendered site
 and the `source` is the main branch for this repo.

@@ -4,22 +4,30 @@ theme = "hello-friend-ng-adapted"
 title = "Stefano Pogliani"
 disableKinds = ["RSS"]
 
-[author]
-  name = "Stefano Pogliani"
-
 [params]
-  homeSubtitle = "Passionate about building stable, secure and scalable infrastructures and Platform as a Service solutions."
+  homeSubtitle = """Passionate about building stable and secure Software to help people
+  (mainly as an Infra Engineer)
+  """
+
+  [params.author]
+    name = "Stefano Pogliani"
 
   [params.resume]
-    text = "Download CV"
+    text = "My Resume"
     url = "/cv.pdf"
 
+  [[params.social]]
+    name = "mastodon"
+    url = "https://social.treehouse.systems/@tyrthecat"
+  [[params.social]]
+    name = "codeberg"
+    url = "https://codeberg.org/stefano-pogliani"
+  [[params.social]]
+    name = "email"
+    url = "mailto:stefano@spogliani.net"
   [[params.social]]
     name = "github"
     url = "https://github.com/stefano-pogliani"
   [[params.social]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/spogliani/"
-  [[params.social]]
-    name = "email"
-    url = "mailto:stefano@spogliani.net"
