@@ -7,7 +7,10 @@ This is the source code for (the latest version of) my personal website.
 The theme is assembled by Hugo on build now:
 
 ```bash
-git worktree add --track -b published public/ origin/published
+# Commented out version is first creation of the branch.
+# git worktree add --track -b published public/ origin/published
+git worktree add public/ origin/published
+cd public/ && git switch published && cd ..
 hugo
 ```
 
