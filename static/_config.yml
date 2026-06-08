@@ -1,0 +1,2 @@
+# Configuration file for GitHub Pages, so it can include .well-known entries.
+include: [".well-known"]
